@@ -1,0 +1,72 @@
+@page "/listadoestudiantes"
+
+@inject ListarEstudiantesUseCase ListarEstudiantesUseCase
+@inject IJSRuntime JsRuntime;
+@inject EliminarEstudianteUseCase EliminarEstudianteUseCase
+@inject NavigationManager Navegador 
+@inject ListarEstudiantesPorCursoUseCase ListarEstudiantesPorCursoUseCase
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>DNI</th>
+            <th>EMAIL</th>
+            <th>ACCIÓN</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var est in _lista)
+        {
+            <tr>
+                <td>@est.Nombre</td>
+                <td>@est.Apellido</td>
+                <td>@est.Dni</td>
+                <td>@est.Email</td>
+                <td>
+                    <button class="btn btn-primary"
+                        @onclick="()=>ModificarEstudiante(est.Id)">
+                        <i class="oi oi-pencil">    Modificar</i>
+                    </button>
+                    <button class="btn btn-danger"
+                        @onclick="()=>EliminarEstudiante(est.Id)">
+                        <i class="oi oi-trash">    Eliminar</i>
+                    </button>
+                    <button class="btn btn-list"
+                        @onclick="()=>ListarCursosPorEstudiante(est.Id)">
+                        <i class="oi oi-list">    Listado de Cursos</i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code{
+    List<Estudiante> _lista = new List<Estudiante>();
+    protected override void OnInitialized()
+    {
+        _lista = ListarEstudiantesUseCase.Ejecutar();
+    }
+    async Task EliminarEstudiante(int id)
+    {
+        bool confirmado = await JsRuntime.InvokeAsync<bool>("confirm",
+        $"Desea eliminar al estudiante con id: {id}?");
+
+        if (confirmado)
+        {
+            EliminarEstudianteUseCase.Ejecutar(id);
+            _lista = ListarEstudiantesUseCase.Ejecutar();
+        }
+    }
+    void ModificarEstudiante(int id)
+    {
+        Navegador.NavigateTo($"/estudiantes/{id}");
+    }
+    void ListarCursosPorEstudiante(int id)
+    {
+
+        Navegador.NavigateTo($"/cursosporestudiante/{id}");
+    }
+}

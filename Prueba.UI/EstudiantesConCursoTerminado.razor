@@ -1,0 +1,31 @@
+@page "/estudiantesconcursoterminado"
+
+@inject ListarEstudiantesConCursoTerminadoUseCase ListarEstudiantesConCursoTerminadoUseCase
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>CURSO</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Dato dato in _data)
+        {
+            <tr>
+                <td>@dato.Nombre</td>
+                <td>@dato.Apellido</td>
+                <td>@dato.Curso</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code{
+    List<Dato> _data = new List<Dato>();
+    protected override void OnInitialized()
+    {
+        _data = ListarEstudiantesConCursoTerminadoUseCase.Ejecutar();
+    }
+}

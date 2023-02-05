@@ -1,0 +1,47 @@
+@page "/estudiantesporcurso/{Id:int?}"
+
+@inject ListarEstudiantesPorCursoUseCase ListarEstudiantesPorCursoUseCase
+@inject ObtenerCursoUseCase ObtenerCursoUseCase
+
+<h2>Listado de Estudiantes del Curso de @titulo</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>DNI</th>
+            <th>EMAIL</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var est in _lista)
+        {
+            <tr>
+                <td>@est.Nombre</td>
+                <td>@est.Apellido</td>
+                <td>@est.Dni</td>
+                <td>@est.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<Estudiante> _lista = new List<Estudiante>();
+    [Parameter] public int? Id { get; set; }
+    Curso? curso;
+    string titulo = "";
+    protected override void OnParametersSet()
+    {
+        if(Id is not null)
+        {
+            curso = ObtenerCursoUseCase.Ejecutar(Id.Value);
+            if(curso is not null)
+            {
+                if(curso.Titulo is not null)
+                    titulo = curso.Titulo;
+            }
+            _lista = ListarEstudiantesPorCursoUseCase.Ejecutar(Id.Value);
+        }
+    }
+}

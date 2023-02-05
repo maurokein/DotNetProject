@@ -1,0 +1,68 @@
+@page "/listadocursos"
+@inject ListarCursosUseCase ListarCursosUseCase
+@inject IJSRuntime JsRuntime;
+@inject EliminarCursoUseCase EliminarCursoUseCase
+@inject NavigationManager Navegador 
+@inject ListarCursosPorEstudianteUseCase ListarCursosPorEstudianteUseCase
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>TITULO</th>
+            <th>FECHA INICIO</th>
+            <th>FECHA FIN</th>
+            <th>ACCIÓN</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cur in _lista)
+        {
+        <tr>
+            <td>@cur.Titulo</td>
+            <td>@cur.FechaDeInicio</td>
+            <td>@cur.FechaDeFin</td>
+            <td>
+                <button class="btn btn-primary"
+                    @onclick="()=>ModificarCurso(cur.Id)">
+                    <i class="oi oi-pencil">    Modificar</i>
+                </button>
+                <button class="btn btn-danger"
+                    @onclick="()=>EliminarCurso(cur.Id)">
+                    <i class="oi oi-trash">    Eliminar</i>
+                </button>
+                <button class="btn btn-list"
+                    @onclick="()=>ListarEstudiantesPorCurso(cur.Id)">
+                    <i class="oi oi-list">    Listado de Estudiantes</i>
+                </button>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+@code{
+    List<Curso> _lista = new List<Curso>();
+    protected override void OnInitialized()
+    {
+        _lista = ListarCursosUseCase.Ejecutar();
+    }
+    async Task EliminarCurso(int id)
+    {
+        bool confirmado = await JsRuntime.InvokeAsync<bool>("confirm",
+        $"Desea eliminar el curso n° {id}?");
+
+        if (confirmado)
+        {
+            EliminarCursoUseCase.Ejecutar(id);
+            _lista = ListarCursosUseCase.Ejecutar();
+        }
+    }
+    void ModificarCurso(int id)
+    {
+        Navegador.NavigateTo($"/cursos/{id}");
+    }
+    void ListarEstudiantesPorCurso(int id)
+    {
+        Navegador.NavigateTo($"/estudiantesporcurso/{id}");
+    }
+}

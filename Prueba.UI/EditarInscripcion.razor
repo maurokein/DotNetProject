@@ -1,0 +1,88 @@
+@page "/inscripciones/{Id:int?}"
+
+@using Prueba.Aplicacion.Entidades;
+@using Prueba.Aplicacion.Interfaces;
+@using Prueba.Aplicacion.UseCases;
+@using Prueba.Repositorios;
+
+@inject NavigationManager Navegador;
+@inject ObtenerEstudianteUseCase ObtenerEstudianteUseCase
+@inject ObtenerCursoUseCase ObtenerCursoUseCase
+@inject AgregarInscripcionUseCase AgregarInscripcionUseCase
+@inject ObtenerInscripcionUseCase ObtenerInscripcionUseCase
+@inject ModificarInscripcionUseCase ModificarInscripcionUseCase
+
+@if (_esNuevaInscripcion)
+{
+    <h3>Agregando una nueva inscripción</h3>
+}
+else
+{
+    <h3>Modificando la inscripción n° "@_inscripcion.Id"</h3>
+}
+
+<input placeholder="Nombre" class="form-control">
+<input placeholder="Apellido" @bind="apellido" class="form-control">
+<input placeholder="Dni" @bind="dni" class="form-control">
+<input placeholder="Curso" @bind="titulo" class="form-control">
+<button class="btn btn-primary" @onclick="Aceptar">Aceptar</button>
+
+@code {
+    Inscripcion _inscripcion = new Inscripcion();
+    int dni; 
+    string? apellido;
+    string? titulo;  
+    [Parameter] public int? Id { get; set; }
+    bool _esNuevaInscripcion = true;
+    protected override void OnParametersSet()
+    {
+        if (Id is not null)
+        {
+            var ins_hallada = ObtenerInscripcionUseCase.Ejecutar(Id.Value);
+            if (ins_hallada != null)
+            {
+                _inscripcion = ins_hallada;
+                _esNuevaInscripcion = false;
+            }
+        }
+    }
+    void Aceptar()
+    {
+        try 
+        {
+            IRepositorioEstudiante buscarEstudiante = new RepositorioEstudiante();
+            IRepositorioCurso buscarCurso = new RepositorioCurso();
+            Estudiante? est = null;
+            if(apellido is not null)
+            {
+                est = buscarEstudiante.GetEstudiante(dni, apellido);            
+            }
+            Curso? cur = null; 
+            if(titulo is not null)  
+            {
+                cur = buscarCurso.GetCurso(titulo);
+            }
+            if(_inscripcion is not null && est is not null && cur is not null)
+            {
+                _inscripcion.EstudianteId = est.Id;
+                _inscripcion.CursoId = cur.Id;
+            }
+            if (_esNuevaInscripcion && _inscripcion is not null)
+            {
+                _inscripcion.FechaDeInscripcion = DateTime.Now;
+                AgregarInscripcionUseCase.Ejecutar(_inscripcion);
+            }
+            else if (_inscripcion is not null)
+            {
+                ModificarInscripcionUseCase.Ejecutar(_inscripcion);
+            }
+            _inscripcion = new Inscripcion();
+            Navegador.NavigateTo("/listadoinscripciones");
+        }
+        catch(Exception e)
+        {
+            Console.WriteLine(e.Message);
+            Navegador.NavigateTo("/errordevalidacion");
+        }
+    }
+}
