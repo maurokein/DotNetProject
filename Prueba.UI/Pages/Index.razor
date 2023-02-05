@@ -1,0 +1,40 @@
+﻿@page "/"
+
+<PageTitle>Cursos &#128218 &#9749 &#10004</PageTitle>
+
+<h1 class="title">Cursos Educativos</h1>
+<div class="images">
+    <img class= "images--item" src="/images/img3.jpg" alt="Cursos Educativos" width="33%" height="250px">
+    <img class= "images--item" src="/images/img2.jpg" alt="Cursos Educativos" width="33%" height="250px">
+    <img class= "images--item" src="/images/img1.jpg" alt="Cursos Educativos" width="33%" height="250px">    
+</div>
+<p class="text1">
+    Esta página representa, a modo ilustrativo, el 'Home' de la aplicación requerida como Segundo Trabajo Integrador del Seminario de Lenguajes .NET de la Facultad de Informática (UNLP). La misma fue desarrollada, siguiendo los patrones de Arquitectura Limpia sugeridos durante en la cursada, en tres capas:
+</p>
+<ul>
+    <li><bold class="resaltado">Prueba.Aplicación</bold></li>
+    <li><bold class="resaltado">Prueba.Repositorios</bold></li>
+    <li><bold class="resaltado">Prueba.UI</bold></li>
+</ul>
+<p>
+    En la primera se definen las entidades específicas del dominio del problema (Estudiante, Curso e Inscripción), más una clase auxiliar (Dato) que sirve a la consulta adecuada de los datos persistidos. También se definen las interfaces necesarias para la interacción con la Base de Datos y la definición de los casos de uso de la aplicación.<br>
+    En la segunda, Repositorios, se define la implementación de las interfaces definidas en la capa interna de la aplicación y se modela desde cero, por medio de Entity Framework, una Base de Datos para la persistencia adecuada de los datos.<br>
+    En la tercera capa, UI, se definen las interfaces de usuario necesarias para la correcta visualización de los datos y para la interacción del usuario con la aplicación. Esta última puede realizarse por medio de la barra lateral ubicada a la izquierda de la página. A continuación se listan los casos de uso y su correspondencia en la interfaz de usuario:        
+</p>
+<ul>
+    <li><bold class="resaltado">Cursos:</bold> se listan todos los cursos registrados en la base de datos.</li>
+    <li><bold class="resaltado">Estudiantes:</bold> se listan todos los estudiantes registrados en la base de datos.</li>
+    <li><bold class="resaltado">Inscripciones:</bold> se listan todas las inscripciones registradas en la base de datos.</li>
+    <li><bold class="resaltado">Estudiantes Activos:</bold> se listan los estudiantes registrados a un curso no finalizado.</li>
+    <li><bold class="resaltado">Estudiantes Egresados:</bold> se listan los estudiantes registrados a un curso ya finalizado.</li>
+    <li><bold class="resaltado">Agregar Curso:</bold> permite registrar un nuevo curso en la aplicación. El mismo se guarda en la Base de Datos.</li>
+    <li><bold class="resaltado">Agregar Estudiante:</bold> permite registrar un nuevo estudiante en la aplicación. El mismo se guarda en la Base de Datos.</li>
+    <li><bold class="resaltado">Agregar Inscripción:</bold> permite registrar una nueva inscripción en la aplicación. La misma se guarda en la Base de Datos sólo si el estudiante y el curso ingresados ya se encuentran registrados en la aplicación. En caso contrario se redirige al usuario a una página donde se informa que los datos ingresados no fueron validados.</li>
+</ul>
+<p>El resto de los casos de uso son implementados en la columna de acciones de los listados totales de cursos y estudiantes:</p>
+<ul class=>
+    <li>Haciendo click en el ícono     <i class="oi oi-pencil"></i>     se redirige al usuario a una página para modificar los datos del estudiante o del curso correspondiente y se actualiza la tabla correspondiente en la Base de Datos.</li>
+    <li>Haciendo click en el ícono     <i class="oi oi-trash"></i>     un cuadro de advertencia solicita al usuario la confirmación para eliminar al estudiante o curso correspondiente y, de confirmarse, se borra el registro de la Base de Datos.</li>
+    <li>Por último, haciendo click en el ícono     <i class="oi oi-list"></i>     se accede a todos los estudiantes inscriptos en un curso dado, o a todos los cursos en los que se ha inscripto un estudiante determinado, según sea el caso.</li>
+</ul>
+<p>*** NOTA: para la reentrega pretenden resolverse las advertencias del compilador respecto de la nulabilidad de tipos y parámetros. ***</p>
