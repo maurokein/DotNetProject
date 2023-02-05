@@ -1,0 +1,75 @@
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.deps.json
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.AssemblyReference.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfoInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfo.cs
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CopyComplete
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\refint\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba\Prueba.Repositorios\obj\Debug\net6.0\ref\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.AssemblyReference.cache
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfoInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfo.cs
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\refint\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.deps.json
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.dll
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.pdb
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CopyComplete
+C:\Users\mauro\OneDrive\Escritorio\Prueba\Prueba.Repositorios\obj\Debug\net6.0\ref\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.deps.json
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.AssemblyReference.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfoInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfo.cs
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CopyComplete
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\refint\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba (final)\Prueba.Repositorios\obj\Debug\net6.0\ref\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.deps.json
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.AssemblyReference.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfoInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfo.cs
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CopyComplete
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\refint\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Prueba_muestra\Prueba.Repositorios\obj\Debug\net6.0\ref\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.deps.json
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\bin\Debug\net6.0\Prueba.Aplicacion.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.AssemblyReference.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfoInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.AssemblyInfo.cs
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.csproj.CopyComplete
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\refint\Prueba.Repositorios.dll
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\Prueba.Repositorios.pdb
+C:\Users\mauro\OneDrive\Escritorio\Matrix knowledge\LENGUAJES\C#\Seminario UNLP\Entregas\Escuela_Digital\Prueba.Repositorios\obj\Debug\net6.0\ref\Prueba.Repositorios.dll
