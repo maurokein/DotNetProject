@@ -1,0 +1,20 @@
+.title[b-5ww2fmgo5i] {
+    text-align: center;
+}
+
+.images[b-5ww2fmgo5i] {
+    display: flex;
+    gap: 10px;
+}
+.images--item[b-5ww2fmgo5i] {
+    border-radius: 8px;
+}
+.text[b-5ww2fmgo5i] {
+    margin-top: 20px;
+}
+.lista[b-5ww2fmgo5i] {
+    margin-bottom: 20px;
+}
+.resaltado[b-5ww2fmgo5i] {
+    font-weight: bold;
+}
